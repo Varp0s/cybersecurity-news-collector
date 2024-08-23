@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  cybersecurity_news_collector:
+    build: .
+    dockerfile: Dockerfile
+    container_name: cybersecurity_news_collector
+    image: cybersecurity_news_collector
+    restart: always
